@@ -1,0 +1,63 @@
+# A practice of writing mathematical equations using LaTex.
+
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+\begin{document}	
+\noindent
+\today \\
+\Large \textbf{Xinxin Zhang} \\
+\Large\textbf{EE-393 Technical Writing} \\
+\begin{center}
+Mathematical Equations
+\end{center}
+
+\begin{equation}
+\ x^2 + y^2 = r^2 \quad (r>0)
+\end{equation}
+This equation is used to represent any circle with center coordinate (0, 0) and radius \(r\). \\
+e.g. If a circle with center coordinate (0, 0) and radius 5, then we can represent the circle as \(x^2 + y^2 = 5^2\). \\
+
+\begin{equation}
+\ x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
+\end{equation}
+This quadratic formula is used to find the roots of the general quadratic equation
+\(ax^2+bx+c=0 \quad (a\neq 0)\). \\
+e.g. If we have a quadratic equation \(x^2+2x+1=0\), then the roots of this equation can be found by \(x=(-2\pm\sqrt{2^2-4\cdot1\cdot1})/(2\cdot1)\). 
+
+\begin{equation}
+\tan(\theta)=\frac{\sin(\theta)}{\cos(\theta)}
+\end{equation}
+This trigonometric equation is used to represent the relationship among sine, cosine and tangent. \\
+e.g. If a triangle has an angle with 60 degree, then we have \(\tan(60^\circ)={\sin(60^\circ)}/{\cos(60^\circ)}\).
+
+\begin{equation}
+\ A=\pi\cdot{r^2}
+\end{equation}
+This equation is used to calculate the area of a circle with radius \(r\).
+e.g. If a circle has radius of 5 \si{\metre}, then the area of the circle is , which is \(\pi\cdot{5^2}\) \si{\metre\squared}, which is \(25{\pi}^2\) \si{\metre\squared}. 
+
+\begin{equation}
+\ S=\frac{n(n+1)}2 \quad (n=1, 2,3, ...)
+\end{equation}
+This equation is used to calculate the sum of all the integers from 1 through \(n\). \\ 
+e.g. If we want to add the integers from 1 to 100, then the sum will be \(100\cdot(100+1)/2\), which is 5050.
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
